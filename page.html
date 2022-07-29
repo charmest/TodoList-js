@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>Document</title>
+	<script type="text/javascript" src="todolist.js"></script>
+</head>
+<body>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="intro col-12">
+				<h1>Work To-Dos</h1>
+				<div>
+					<div class="border1"></div>
+					<div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="helpText col-12">
+				<p id="first">Ajouter du texte pour une nouvelle tache.</p>
+				<p id="second">Clique sur l'element pour marquer la tâche comme terminée.</p>
+				<p id="third">Clique sur "X" pour effacer de la liste.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<input id="userInput" type="text" placeholder="Nouveau..." maxlength="134">
+				<button id="btn" onclick="ajouteElement()">Ajouter une tâche<i class="fas fa-pencil-alt"></i></button>
+			</div>
+		</div>
+		<!-- Empty List -->
+		<div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
